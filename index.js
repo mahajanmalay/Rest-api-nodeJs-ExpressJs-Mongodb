@@ -2,7 +2,7 @@ express = require('express');
 mongoose = require('mongoose');
 routes = require("./routes/routes")
 
-Database = 'mongodb+srv://malay:malay@cluster0.8hjbmv7.mongodb.net/?retryWrites=true&w=majority';
+Database = 'mongodb url';
 
 mongoose.connect(Database, { useNewUrlParser: true })
     .then(() => {
